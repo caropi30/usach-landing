@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #0077b6;
+  color: #fff;
+}
+
+header .header-logo {
+  display: flex;
+  align-items: center;
+}
+
+header .header-logo figure {
+  margin: auto;
+  width: 3rem;
+  margin: auto;
+}
+
+header .header-logo figure img {
+  width: 100%;
+}
+
+header .header-logo div {
+  position: relative;
+  padding-left: 10px;
+  margin: auto;
+}
+
+header .header-logo div h2 {
+  font-size: 2.5rem;
+}
+
+header .header-logo div h3 {
+  font-size: 1rem;
+  position: absolute;
+  top: 40px;
+}
+
+header .header-logo h2 {
+  font-size: 2rem;
+}
+
+header .header-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  font-weight: 300;
+}
+
+#carousel .carousel-inner {
+  position: relative;
+}
+
+#carousel .carousel-caption {
+  position: absolute;
+  bottom: 10rem;
+}
+
+#carousel .carousel-caption h5 {
+  font-size: 3rem;
+}
+
+#carousel .carousel-caption p {
+  font-size: 1.5rem;
+}
+
+#carousel .carousel-item {
+  height: 500px;
+}
+
+#carousel .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#welcome {
+  text-align: center;
+  padding: 3rem;
+  color: #5c677d;
+  margin: 2rem 0;
+}
+
+#welcome p {
+  max-width: 800px;
+  margin: auto;
+  font-weight: 300;
+}
+
+#description {
+  background-color: #003049;
+  color: #fff;
+  display: flex;
+  padding: 4rem 3rem;
+}
+
+.description-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.border-right {
+  border-right: 1px solid #fff;
+}
+
+.description-item i,
+h4,
+p {
+  padding: 0.5rem;
+}
+
+.description-item p {
+  font-weight: 300;
+}
+
+footer {
+  background-color: #003049;
+  color: #fff;
+  text-align: center;
+  padding: 3rem;
+  font-weight: 300;
+}
+
+footer span {
+  padding-left: 1rem;
+}
